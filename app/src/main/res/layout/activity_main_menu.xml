@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainMenuActivity">
+
+    <TextView android:text="@string/debug_main_menu" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_1_main_menu"
+        android:id="@+id/button"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_2_main_menu"
+        android:id="@+id/button2"
+        android:layout_marginTop="130dp"
+        android:layout_below="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_3_main_menu"
+        android:id="@+id/button3"
+        android:layout_above="@+id/button"
+        android:layout_marginBottom="130dp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
